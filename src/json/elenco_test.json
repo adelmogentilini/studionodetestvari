@@ -1,0 +1,200 @@
+[{
+  "_links" : {
+    "self" : {
+      "href" : "/rest/api/integrationservices/v1/records/MzEwMDA4",
+      "templated" : false
+    }
+  },
+  "parentCompanyId" : "NTc2MzE5MDc5MzE3NTA0MA==",
+  "entityVersion" : 832494938,
+  "recordId" : "MzEwMDA4",
+  "recordHeaderData" : {
+    "recordType" : 20,
+    "companyName" : "BISSON AUTO SPA",
+    "tags" : [ ],
+    "companyRecordData" : { }
+  },
+  "addressData" : {
+    "address" : "VIA NAZIONALE,56",
+    "cityData" : {
+      "cityName" : "GRUMOLO DELLE ABBADESSE",
+      "province" : "VI",
+      "zipCode" : "36040",
+      "cityFiscalCode" : "E226"
+    },
+    "countryData" : {
+      "countryName" : "ITALIA",
+      "taxCode" : "Z000",
+      "vatNumberCode" : "IT",
+      "iso31661Alpha2Code" : "IT"
+    }
+  },
+  "birthData" : { },
+  "taxData" : {
+    "taxCode" : "02202650244",
+    "vatNumber" : "02202650244",
+    "vatCountry" : "IT"
+  },
+  "taxPreferencesData" : {
+    "defaultBillDocumentType" : 5,
+    "invoicePaymentType" : 14,
+    "ticketPaymentType" : 0,
+    "deferrableTicketPaymentType" : 0,
+    "receiptPaymentType" : 2,
+    "deferrableReceiptPaymentType" : 0,
+    "proFormaReceiptPaymentType" : 0,
+    "deferrableProFormaReceiptPaymentType" : 0,
+    "saleDeliveryNotePaymentType" : 0,
+    "defaultDocRecepientType" : 0,
+    "iban" : "IT69Q0306960807100000000613",
+    "customer" : true,
+    "supplier" : true,
+    "invoiceRecipientCode" : "A4707H7",
+    "splitPayment" : false
+  },
+  "licenseData" : {
+    "licenseCategory" : "UNKNOWN",
+    "licenseARating" : "UNKNOWN"
+  },
+  "privacyData" : {
+    "expirationDateNotifications" : true,
+    "acceptPromotions" : true,
+    "acceptThirdPartiesPromotions" : false
+  },
+  "contactsData" : {
+    "email" : "bissonauto@bissonauto.it",
+    "fax" : "0444210855",
+    "phoneNumber" : "0444210810",
+    "favouriteMobile1Number" : false,
+    "favouriteMobile2Number" : false,
+    "preferredContactMethod" : 2,
+    "contacts" : [ ]
+  },
+  "referents" : [ {
+    "referentId" : 1,
+    "favouriteMobile" : false
+  }, {
+    "referentId" : 2,
+    "favouriteMobile" : false
+  }, {
+    "referentId" : 3,
+    "favouriteMobile" : false
+  }, {
+    "referentId" : 4,
+    "favouriteMobile" : false
+  }, {
+    "referentId" : 5,
+    "favouriteMobile" : false
+  } ],
+  "timestamp" : 657524583,
+  "deleted" : false
+},{
+  "_links" : {
+    "self" : {
+      "href" : "/rest/api/integrationservices/v1/records/MjAwMzY=",
+      "templated" : false
+    }
+  },
+  "parentCompanyId" : "NTc2MzE5MDc5MzE3NTA0MA==",
+  "entityVersion" : -183171782,
+  "recordId" : "MjAwMzY=",
+  "recordHeaderData" : {
+    "recordType" : 20,
+    "companyName" : "BI-ELLE AUTO SPA",
+    "tags" : [ ],
+    "companyRecordData" : { }
+  },
+  "addressData" : {
+    "address" : "VIA PIAVE 14/B",
+    "cityData" : {
+      "cityName" : "MONSELICE",
+      "province" : "PD",
+      "zipCode" : "35043",
+      "cityFiscalCode" : "F382"
+    },
+    "countryData" : {
+      "countryName" : "ITALIA",
+      "taxCode" : "Z000",
+      "vatNumberCode" : "IT",
+      "iso31661Alpha2Code" : "IT"
+    }
+  },
+  "birthData" : {
+    "sex" : "M",
+    "birthDate" : "1970-01-01T00:00:00.000Z"
+  },
+  "taxData" : {
+    "taxCode" : "00045510286",
+    "vatNumber" : "00045510286",
+    "vatCountry" : "IT"
+  },
+  "taxPreferencesData" : {
+    "defaultBillDocumentType" : 5,
+    "invoicePaymentType" : 14,
+    "ticketPaymentType" : 0,
+    "deferrableTicketPaymentType" : 0,
+    "receiptPaymentType" : 14,
+    "deferrableReceiptPaymentType" : 0,
+    "proFormaReceiptPaymentType" : 0,
+    "deferrableProFormaReceiptPaymentType" : 0,
+    "saleDeliveryNotePaymentType" : 0,
+    "defaultDocRecepientType" : 0,
+    "iban" : "IT57J0306962669100000001703",
+    "customer" : true,
+    "supplier" : true,
+    "invoiceRecipientCode" : "A4707H7",
+    "splitPayment" : false
+  },
+  "licenseData" : {
+    "licenseCategory" : "UNKNOWN",
+    "licenseARating" : "UNKNOWN"
+  },
+  "privacyData" : {
+    "expirationDateNotifications" : true,
+    "acceptPromotions" : true,
+    "acceptThirdPartiesPromotions" : false
+  },
+  "contactsData" : {
+    "pec" : "gruppobielleauto@pec.it",
+    "phoneNumber" : "0498932220",
+    "favouriteMobile1Number" : false,
+    "favouriteMobile2Number" : false,
+    "preferredContactMethod" : 3,
+    "contacts" : [ {
+      "contactId" : "MACOLA AUTO",
+      "contactTypes" : [ ],
+      "address" : "VIA STOCCOLMA 2",
+      "cityData" : {
+        "cityName" : "VIGONZA",
+        "province" : "PD",
+        "zipCode" : "35010",
+        "cityFiscalCode" : "L900"
+      },
+      "countryData" : {
+        "countryName" : "ITALIA",
+        "taxCode" : "Z000",
+        "vatNumberCode" : "IT",
+        "iso31661Alpha2Code" : "IT"
+      }
+    } ]
+  },
+  "referents" : [ {
+    "referentId" : 1,
+    "favouriteMobile" : false
+  }, {
+    "referentId" : 2,
+    "favouriteMobile" : false
+  }, {
+    "referentId" : 3,
+    "favouriteMobile" : false
+  }, {
+    "referentId" : 4,
+    "favouriteMobile" : false
+  }, {
+    "referentId" : 5,
+    "favouriteMobile" : false
+  } ],
+  "timestamp" : 326513000,
+  "deleted" : false
+}
+]

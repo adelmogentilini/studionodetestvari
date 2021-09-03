@@ -58,8 +58,27 @@ function indexoftest(){
 	console.log("pippo e ok".indexOf("vai"))
 }
 
-//testB64()
-// testLpad()
-// testTipi()
+function numero(){
+	let pippo = '56C'
+	console.log(!isNaN(pippo))
+	var re = new RegExp('[0-9]+');
+	var r  = pippo.match(re);
+	console.log(r[0])
+}
 
-indexoftest()
+function repl(){
+	let s1 = 'people.from.ibiza'
+
+	console.log(s1)
+	s1 = s1.replace('from', 'to')
+	console.log(s1)
+	s1 = s1.replace('ibiza', 'formentera')
+	console.log(s1)
+}
+
+//testB64()
+//testLpad()
+//testTipi()
+//indexoftest()
+//numero()
+repl()

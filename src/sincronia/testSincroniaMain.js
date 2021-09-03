@@ -1,7 +1,7 @@
-const {sleep} = require("./testSincornia");
-const {readUnLock} = require("./testSincornia");
-const {readLock} = require("./testSincornia");
-const {pippo} = require("./testSincornia");
+const {sleep} = require("./testSincronia");
+const {readUnLock} = require("./testSincronia");
+const {readLock} = require("./testSincronia");
+const {pippo} = require("./testSincronia");
 
 async function main(){
   for (let i =0; i<5000; i++){

@@ -81,8 +81,12 @@ function test5(){
   const dt = new Date(timestampScad)
   const dt2 = new Date(dt.getTime()-4*step)
 
+  const oraEsecuzione  = new Date(Date.now())
+
   console.log(dt)
   console.log(dt2)
+  console.log(oraEsecuzione)
+
 }
 
 function stringToDate(_date,_format,_delimiter)

@@ -1,3 +1,6 @@
+const {sleep} = require("../util");
+
+
 let lockpippo = false
 let locknum = 0
 let nonlocknum = 0
@@ -16,11 +19,6 @@ async function pippo(){
   return
 }
 
-function sleep (ms) {
-  return new Promise((resolve) => {
-    setTimeout(resolve, ms)
-  })
-}
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
@@ -34,4 +32,3 @@ function readUnLock(){
 module.exports.readLock = readLock
 module.exports.readUnLock = readUnLock
 module.exports.pippo = pippo
-module.exports.sleep = sleep

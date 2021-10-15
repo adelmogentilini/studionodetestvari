@@ -3,7 +3,7 @@
  * @returns {{versione: string, rilasciata: string}}
  */
 const fs = require('fs')
-const VERSIONE = {    versione: "1.0.4",
+const VERSIONE = {    versione: "1.0.5",
     rilasciata: "Settembre 2021"
   }
 

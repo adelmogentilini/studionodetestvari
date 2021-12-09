@@ -102,5 +102,16 @@ function stringToDate(_date,_format,_delimiter)
   var formatedDate = new Date(dateItems[yearIndex],month,dateItems[dayIndex]);
   return formatedDate;
 }
-test5()
+
+function test6(){
+  let dt = new Date()
+  let dtstr = dt.toLocaleDateString()
+  let dt2 = new Date(dt)
+
+  console.log(dt)
+  console.log(dtstr)
+  console.log(dt2)
+  console.log(dt2.toLocaleDateString())
+}
+test6()
 

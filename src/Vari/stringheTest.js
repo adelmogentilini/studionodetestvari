@@ -76,9 +76,15 @@ function repl(){
 	console.log(s1)
 }
 
+function splitTest(){
+	const str = 'pippo.ciao'
+	const parti = str.split('\.')
+	console.log(parti)
+}
 //testB64()
 //testLpad()
 //testTipi()
 //indexoftest()
 //numero()
-repl()
+//repl()
+splitTest()

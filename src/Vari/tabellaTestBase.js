@@ -2,8 +2,18 @@ let a = undefined
 let b = null
 console.log("a vale " + a)
 console.log("b vale " + b)
-console.log("!a = " + (!a))
-console.log("!b = " + (!b))
+if (a) {
+    console.log("if (a) = true")
+} else {
+    console.log("if (a) = false")
+}
+if (b) {
+    console.log("if (b) = true")
+} else {
+    console.log("if (b) = false")
+}
+console.log("(!a) = " + (!a))
+console.log("(!b) = " + (!b))
 console.log("a != b " + (a != b))
 console.log("a !== b " + (a !== b))
 
